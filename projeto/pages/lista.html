@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Lista</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Menu</a>
+        <a href="./api.html">API</a>
+        <a href="./botao.html">Botões</a>
+    </nav>
+    <main>
+        <div>
+            <table>
+                <tr>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Saldo</th>
+                <th>Deletar linha</th>
+                </tr>
+                <tr id="linha1">
+                <td>Luís</td>
+                <td>Tonin</td>
+                <td>R$500</td>
+                <td><button onclick="deletarlinha1()">Deletar</button></td>
+                </tr>
+                <tr id="linha2">
+                <td>Thiago</td>
+                <td>Olimpo</td>
+                <td>R$10.000</td>
+                <td><button onclick="deletarlinha2()">Deletar</button></td>
+                </tr>
+                <tr id="linha3">
+                <td>John</td>
+                <td>Vicentino</td>
+                <td>R$7.678</td>
+                <td><button onclick="deletarlinha3()">Deletar</button></td>
+                </tr>
+                <tr id="linha4">
+                <td>Cadu</td>
+                <td>Amaro</td>
+                <td>R$50.000</td>
+                <td><button onclick="deletarlinha4()">Deletar</button></td>
+                </tr>
+                <tr id="linha5">
+                <td>Íris</td>
+                <td>Araújo</td>
+                <td>R$1</td>
+                <td><button onclick="deletarlinha5()">Deletar</button></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="../javascript/main.js"></script>
+</body>
+</html>
